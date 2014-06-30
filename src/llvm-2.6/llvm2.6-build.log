@@ -1,0 +1,1660 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking type of operating system we're going to host on... Linux
+checking type of operating system we're going to target... Linux
+checking target architecture... x86_64
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking how to run the C preprocessor... gcc -E
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking for GNU make... make
+checking whether ln -s works... yes
+checking for cmp... /usr/bin/cmp
+checking for cp... /bin/cp
+checking for date... /bin/date
+checking for find... /usr/bin/find
+checking for grep... (cached) /bin/grep
+checking for mkdir... /bin/mkdir
+checking for mv... /bin/mv
+checking for ranlib... ranlib
+checking for rm... /bin/rm
+checking for sed... /bin/sed
+checking for tar... /bin/tar
+checking for pwd... /bin/pwd
+checking for Graphviz... echo Graphviz
+checking for dot... echo dot
+checking for fdp... echo fdp
+checking for neato... echo neato
+checking for twopi... echo twopi
+checking for circo... echo circo
+checking for gv... no
+checking for gsview32... no
+checking for dotty... echo dotty
+checking for perl... /usr/bin/perl
+checking for Perl 5.006 or newer... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for bzip2... /bin/bzip2
+checking for doxygen... no
+checking for groff... /usr/bin/groff
+checking for gzip... /bin/gzip
+checking for pod2html... /usr/bin/pod2html
+checking for pod2man... /usr/bin/pod2man
+checking for runtest... no
+checking for the tclsh program in tclinclude directory... none
+checking for tclsh8.4... no
+checking for tclsh8.4.8... no
+checking for tclsh8.4.7... no
+checking for tclsh8.4.6... no
+checking for tclsh8.4.5... no
+checking for tclsh8.4.4... no
+checking for tclsh8.4.3... no
+checking for tclsh8.4.2... no
+checking for tclsh8.4.1... no
+checking for tclsh8.4.0... no
+checking for tclsh8.3... no
+checking for tclsh8.3.5... no
+checking for tclsh8.3.4... no
+checking for tclsh8.3.3... no
+checking for tclsh8.3.2... no
+checking for tclsh8.3.1... no
+checking for tclsh8.3.0... no
+checking for tclsh... /usr/bin/tclsh
+checking for zip... no
+checking for ocamlc... /usr/bin/ocamlc
+checking for ocamlopt... /usr/bin/ocamlopt
+checking for ocamldep... /usr/bin/ocamldep
+checking for ocamldoc... /usr/bin/ocamldoc
+checking for gas... no
+checking for as... /usr/bin/as
+checking for compiler -Wl,-R<path> option... yes
+checking for compiler -Wl,-export-dynamic option... yes
+checking for an ANSI C-conforming const... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking which extension is used for loadable modules... .so
+checking which variable specifies run-time library path... LD_LIBRARY_PATH
+checking for the default library search path... /lib /usr/lib /usr/local/lib /usr/local/lib /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu 
+checking for objdir... .libs
+checking command to parse /usr/bin/nm -B output from  object... ok
+checking whether libtool supports -dlopen/-dlpreopen... yes
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen in -ldl... yes
+checking for dlerror... yes
+checking for _ prefix in compiled symbols... no
+checking whether deplibs are loaded by dlopen... yes
+checking argz.h usability... yes
+checking argz.h presence... yes
+checking for argz.h... yes
+checking for error_t... yes
+checking for argz_append... yes
+checking for argz_create_sep... yes
+checking for argz_insert... yes
+checking for argz_next... yes
+checking for argz_stringify... yes
+checking assert.h usability... yes
+checking assert.h presence... yes
+checking for assert.h... yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for unistd.h... (cached) yes
+checking dl.h usability... no
+checking dl.h presence... no
+checking for dl.h... no
+checking sys/dl.h usability... no
+checking sys/dl.h presence... no
+checking for sys/dl.h... no
+checking dld.h usability... no
+checking dld.h presence... no
+checking for dld.h... no
+checking mach-o/dyld.h usability... no
+checking mach-o/dyld.h presence... no
+checking for mach-o/dyld.h... no
+checking for string.h... (cached) yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for strcmp... yes
+checking for closedir... yes
+checking for opendir... yes
+checking for readdir... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking how to recognise dependent libraries... pass_all
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from gcc object... (cached) ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... (cached) ranlib
+checking for strip... strip
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking for shl_load... (cached) no
+checking for shl_load in -ldld... (cached) no
+checking for dlopen... no
+checking for dlopen in -ldl... (cached) yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating mklib
+appending configuration tag "CXX" to mklib
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to mklib
+checking for llvm-gcc... /local_home/sarahsong/llvm-gcc-4.2-2.6-x86_64-linux/bin/llvm-gcc
+checking for llvm-g++... /local_home/sarahsong/llvm-gcc-4.2-2.6-x86_64-linux/bin/llvm-g++
+checking tool compatibility... ok
+checking for sin in -lm... yes
+checking for library containing dlopen... -ldl
+checking for library containing ffi_call... no
+configure: WARNING: libffi not found - disabling external calls from interpreter
+checking for library containing mallinfo... none required
+checking for pthread_mutex_init in -lpthread... yes
+checking for library containing pthread_mutex_lock... none required
+checking for library containing pthread_rwlock_init... none required
+checking for library containing pthread_getspecific... none required
+checking for library containing op_open_agent... no
+checking opagent.h usability... no
+checking opagent.h presence... no
+checking for opagent.h... no
+checking for dirent.h that defines DIR... (cached) yes
+checking for library containing opendir... (cached) none required
+checking for MAP_ANONYMOUS vs. MAP_ANON... yes
+checking whether stat file-mode macros are broken... no
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for dlfcn.h... (cached) yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking link.h usability... yes
+checking link.h presence... yes
+checking for link.h... yes
+checking for malloc.h... (cached) yes
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for stdint.h... (cached) yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking windows.h usability... no
+checking windows.h presence... no
+checking for windows.h... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking malloc/malloc.h usability... no
+checking malloc/malloc.h presence... no
+checking for malloc/malloc.h... no
+checking mach/mach.h usability... no
+checking mach/mach.h presence... no
+checking for mach/mach.h... no
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking ffi.h usability... no
+checking ffi.h presence... no
+checking for ffi.h... no
+checking ffi/ffi.h usability... no
+checking ffi/ffi.h presence... no
+checking for ffi/ffi.h... no
+checking for HUGE_VAL sanity... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking return type of signal handlers... void
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for int64_t... yes
+checking for uint64_t... yes
+checking for backtrace... yes
+checking for ceilf... yes
+checking for floorf... yes
+checking for roundf... yes
+checking for rintf... yes
+checking for nearbyintf... yes
+checking for getcwd... yes
+checking for powf... yes
+checking for fmodf... yes
+checking for strtof... yes
+checking for round... yes
+checking for getpagesize... yes
+checking for getrusage... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for gettimeofday... yes
+checking for isatty... yes
+checking for mkdtemp... yes
+checking for mkstemp... yes
+checking for mktemp... yes
+checking for realpath... yes
+checking for sbrk... yes
+checking for setrlimit... (cached) yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strerror_r... yes
+checking for strerror_s... no
+checking for strtoll... yes
+checking for strtoq... yes
+checking for sysconf... yes
+checking for malloc_zone_statistics... no
+checking for setjmp... yes
+checking for longjmp... yes
+checking for sigsetjmp... no
+checking for siglongjmp... yes
+checking if printf has the %a format character... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for srand48/lrand48/drand48 in <stdlib.h>... yes
+checking whether the compiler implements namespaces... yes
+checking whether the compiler has the standard iterator... yes
+checking whether the compiler has the bidirectional iterator... no
+checking whether the compiler has forward iterators... no
+checking for isnan in <math.h>... yes
+checking for isnan in <cmath>... yes
+checking for std::isnan in <cmath>... yes
+checking for isinf in <math.h>... yes
+checking for isinf in <cmath>... yes
+checking for std::isinf in <cmath>... no
+checking for finite in <ieeefp.h>... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... (cached) yes
+checking for working mmap... yes
+checking for mmap of files... yes
+checking if /dev/zero is needed for mmap... no
+checking for GCC atomic builtins... yes
+checking for __dso_handle... yes
+checking whether llvm-gcc is sane... yes
+checking llvm-gcc component support... ok
+checking for compiler -fvisibility-inlines-hidden option... yes
+configure: creating ./config.status
+config.status: creating include/llvm/Config/Targets.def
+config.status: creating include/llvm/Config/AsmPrinters.def
+config.status: creating include/llvm/Config/AsmParsers.def
+config.status: creating Makefile.config
+config.status: creating llvm.spec
+config.status: creating docs/doxygen.cfg
+config.status: creating tools/llvmc/plugins/Base/Base.td
+config.status: creating tools/llvm-config/llvm-config.in
+config.status: creating include/llvm/Config/config.h
+config.status: creating include/llvm/Support/DataTypes.h
+config.status: creating include/llvm/ADT/iterator.h
+config.status: executing setup commands
+config.status: executing Makefile commands
+config.status: executing Makefile.common commands
+config.status: executing examples/Makefile commands
+config.status: executing lib/Makefile commands
+config.status: executing runtime/Makefile commands
+config.status: executing test/Makefile commands
+config.status: executing test/Makefile.tests commands
+config.status: executing unittests/Makefile commands
+config.status: executing tools/Makefile commands
+config.status: executing utils/Makefile commands
+config.status: executing projects/Makefile commands
+config.status: executing bindings/Makefile commands
+config.status: executing bindings/ocaml/Makefile.ocaml commands
+=== configuring in projects/sample (/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample)
+configure: running /bin/sh ./configure --prefix=/usr/local  --cache-file=/dev/null --srcdir=.
+configure: creating ./config.status
+config.status: creating Makefile.common
+config.status: executing setup commands
+config.status: executing Makefile commands
+config.status: executing lib/Makefile commands
+config.status: executing lib/sample/Makefile commands
+config.status: executing tools/Makefile commands
+config.status: executing tools/sample/Makefile commands
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/System'
+llvm[1]: Compiling Alarm.cpp for Release build 
+llvm[1]: Compiling Atomic.cpp for Release build 
+llvm[1]: Compiling Disassembler.cpp for Release build 
+llvm[1]: Compiling DynamicLibrary.cpp for Release build 
+llvm[1]: Compiling Errno.cpp for Release build 
+llvm[1]: Compiling Host.cpp for Release build 
+llvm[1]: Compiling IncludeFile.cpp for Release build 
+llvm[1]: Compiling Memory.cpp for Release build 
+llvm[1]: Compiling Mutex.cpp for Release build 
+llvm[1]: Compiling Path.cpp for Release build 
+llvm[1]: Compiling Process.cpp for Release build 
+llvm[1]: Compiling Program.cpp for Release build 
+llvm[1]: Compiling RWMutex.cpp for Release build 
+llvm[1]: Compiling Signals.cpp for Release build 
+llvm[1]: Compiling ThreadLocal.cpp for Release build 
+llvm[1]: Compiling Threading.cpp for Release build 
+llvm[1]: Compiling TimeValue.cpp for Release build 
+llvm[1]: Building Release Archive Library libLLVMSystem.a
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/System'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Support'
+llvm[1]: Compiling APFloat.cpp for Release build 
+llvm[1]: Compiling APInt.cpp for Release build 
+llvm[1]: Compiling APSInt.cpp for Release build 
+llvm[1]: Compiling Allocator.cpp for Release build 
+llvm[1]: Compiling CommandLine.cpp for Release build 
+llvm[1]: Compiling ConstantRange.cpp for Release build 
+llvm[1]: Compiling Debug.cpp for Release build 
+llvm[1]: Compiling Dwarf.cpp for Release build 
+llvm[1]: Compiling ErrorHandling.cpp for Release build 
+llvm[1]: Compiling FileUtilities.cpp for Release build 
+llvm[1]: Compiling FoldingSet.cpp for Release build 
+llvm[1]: Compiling FormattedStream.cpp for Release build 
+llvm[1]: Compiling GraphWriter.cpp for Release build 
+llvm[1]: Compiling IsInf.cpp for Release build 
+llvm[1]: Compiling IsNAN.cpp for Release build 
+llvm[1]: Compiling ManagedStatic.cpp for Release build 
+llvm[1]: Compiling MemoryBuffer.cpp for Release build 
+llvm[1]: Compiling PluginLoader.cpp for Release build 
+llvm[1]: Compiling PrettyStackTrace.cpp for Release build 
+llvm[1]: Compiling SlowOperationInformer.cpp for Release build 
+llvm[1]: Compiling SmallPtrSet.cpp for Release build 
+llvm[1]: Compiling SourceMgr.cpp for Release build 
+llvm[1]: Compiling Statistic.cpp for Release build 
+llvm[1]: Compiling Streams.cpp for Release build 
+llvm[1]: Compiling StringExtras.cpp for Release build 
+llvm[1]: Compiling StringMap.cpp for Release build 
+llvm[1]: Compiling StringPool.cpp for Release build 
+llvm[1]: Compiling SystemUtils.cpp for Release build 
+llvm[1]: Compiling TargetRegistry.cpp for Release build 
+llvm[1]: Compiling Timer.cpp for Release build 
+llvm[1]: Compiling Triple.cpp for Release build 
+llvm[1]: Compiling Twine.cpp for Release build 
+llvm[1]: Compiling raw_ostream.cpp for Release build 
+llvm[1]: Building Release Archive Library libLLVMSupport.a
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Support'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/TableGen'
+llvm[2]: Compiling AsmMatcherEmitter.cpp for Release build 
+llvm[2]: Compiling AsmWriterEmitter.cpp for Release build 
+llvm[2]: Compiling CallingConvEmitter.cpp for Release build 
+llvm[2]: Compiling ClangDiagnosticsEmitter.cpp for Release build 
+llvm[2]: Compiling CodeEmitterGen.cpp for Release build 
+llvm[2]: Compiling CodeGenDAGPatterns.cpp for Release build 
+llvm[2]: Compiling CodeGenInstruction.cpp for Release build 
+llvm[2]: Compiling CodeGenTarget.cpp for Release build 
+llvm[2]: Compiling DAGISelEmitter.cpp for Release build 
+llvm[2]: Compiling FastISelEmitter.cpp for Release build 
+llvm[2]: Compiling InstrEnumEmitter.cpp for Release build 
+llvm[2]: Compiling InstrInfoEmitter.cpp for Release build 
+llvm[2]: Compiling IntrinsicEmitter.cpp for Release build 
+llvm[2]: Compiling LLVMCConfigurationEmitter.cpp for Release build 
+llvm[2]: Compiling Record.cpp for Release build 
+llvm[2]: Compiling RegisterInfoEmitter.cpp for Release build 
+llvm[2]: Compiling SubtargetEmitter.cpp for Release build 
+llvm[2]: Compiling TGLexer.cpp for Release build 
+llvm[2]: Compiling TGParser.cpp for Release build 
+llvm[2]: Compiling TGValueTypes.cpp for Release build 
+llvm[2]: Compiling TableGen.cpp for Release build 
+llvm[2]: Compiling TableGenBackend.cpp for Release build 
+llvm[2]: Linking Release executable tblgen (without symbols)
+llvm[2]: ======= Finished Linking Release Executable tblgen (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/TableGen'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/fpcmp'
+llvm[2]: Compiling fpcmp.cpp for Release build 
+llvm[2]: Linking Release executable fpcmp (without symbols)
+llvm[2]: ======= Finished Linking Release Executable fpcmp (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/fpcmp'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/PerfectShuffle'
+llvm[2]: Compiling PerfectShuffle.cpp for Release build 
+llvm[2]: Linking Release executable llvm-PerfectShuffle (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-PerfectShuffle (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/PerfectShuffle'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/FileCheck'
+llvm[2]: Compiling FileCheck.cpp for Release build 
+llvm[2]: Linking Release executable FileCheck (without symbols)
+llvm[2]: ======= Finished Linking Release Executable FileCheck (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/FileCheck'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/FileUpdate'
+llvm[2]: Compiling FileUpdate.cpp for Release build 
+llvm[2]: Linking Release executable FileUpdate (without symbols)
+llvm[2]: ======= Finished Linking Release Executable FileUpdate (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/FileUpdate'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/unittest'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/unittest/googletest'
+llvm[3]: Compiling gtest.cc for Release build
+llvm[3]: Compiling gtest-death-test.cc for Release build
+llvm[3]: Compiling gtest-filepath.cc for Release build
+llvm[3]: Compiling gtest-port.cc for Release build
+llvm[3]: Compiling gtest-test-part.cc for Release build
+llvm[3]: Compiling gtest-typed-test.cc for Release build
+llvm[3]: Building Release Archive Library libGoogleTest.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/unittest/googletest'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils/unittest'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/utils'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/VMCore'
+llvm[1]: Building Intrinsics.gen.tmp from Intrinsics.td
+llvm[1]: Updated Intrinsics.gen because Intrinsics.gen.tmp changed significantly.
+llvm[1]: Compiling AsmWriter.cpp for Release build 
+llvm[1]: Compiling Attributes.cpp for Release build 
+llvm[1]: Compiling AutoUpgrade.cpp for Release build 
+llvm[1]: Compiling BasicBlock.cpp for Release build 
+llvm[1]: Compiling ConstantFold.cpp for Release build 
+llvm[1]: Compiling Constants.cpp for Release build 
+llvm[1]: Compiling Core.cpp for Release build 
+llvm[1]: Compiling Dominators.cpp for Release build 
+llvm[1]: Compiling Function.cpp for Release build 
+llvm[1]: Compiling Globals.cpp for Release build 
+llvm[1]: Compiling InlineAsm.cpp for Release build 
+llvm[1]: Compiling Instruction.cpp for Release build 
+llvm[1]: Compiling Instructions.cpp for Release build 
+llvm[1]: Compiling IntrinsicInst.cpp for Release build 
+llvm[1]: Compiling LLVMContext.cpp for Release build 
+llvm[1]: Compiling LeakDetector.cpp for Release build 
+llvm[1]: Compiling Mangler.cpp for Release build 
+llvm[1]: Compiling Metadata.cpp for Release build 
+llvm[1]: Compiling Module.cpp for Release build 
+llvm[1]: Compiling ModuleProvider.cpp for Release build 
+llvm[1]: Compiling Pass.cpp for Release build 
+llvm[1]: Compiling PassManager.cpp for Release build 
+llvm[1]: Compiling PrintModulePass.cpp for Release build 
+llvm[1]: Compiling Type.cpp for Release build 
+llvm[1]: Compiling TypeSymbolTable.cpp for Release build 
+llvm[1]: Compiling Use.cpp for Release build 
+llvm[1]: Compiling Value.cpp for Release build 
+llvm[1]: Compiling ValueSymbolTable.cpp for Release build 
+llvm[1]: Compiling ValueTypes.cpp for Release build 
+llvm[1]: Compiling Verifier.cpp for Release build 
+llvm[1]: Building Release Archive Library libLLVMCore.a
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/VMCore'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/VMCore'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/VMCore'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/AsmParser'
+llvm[2]: Compiling LLLexer.cpp for Release build 
+llvm[2]: Compiling LLParser.cpp for Release build 
+llvm[2]: Compiling Parser.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMAsmParser.a
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/AsmParser'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Bitcode'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Bitcode/Reader'
+llvm[3]: Compiling BitReader.cpp for Release build 
+llvm[3]: Compiling BitcodeReader.cpp for Release build 
+llvm[3]: Compiling Deserialize.cpp for Release build 
+llvm[3]: Compiling DeserializeAPFloat.cpp for Release build 
+llvm[3]: Compiling DeserializeAPInt.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMBitReader.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Bitcode/Reader'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Bitcode/Writer'
+llvm[3]: Compiling BitWriter.cpp for Release build 
+llvm[3]: Compiling BitcodeWriter.cpp for Release build 
+llvm[3]: Compiling BitcodeWriterPass.cpp for Release build 
+llvm[3]: Compiling Serialize.cpp for Release build 
+llvm[3]: Compiling SerializeAPFloat.cpp for Release build 
+llvm[3]: Compiling SerializeAPInt.cpp for Release build 
+llvm[3]: Compiling ValueEnumerator.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMBitWriter.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Bitcode/Writer'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Bitcode'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Archive'
+llvm[2]: Compiling Archive.cpp for Release build 
+llvm[2]: Compiling ArchiveReader.cpp for Release build 
+llvm[2]: Compiling ArchiveWriter.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMArchive.a
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Archive'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Analysis'
+llvm[2]: Compiling AliasAnalysis.cpp for Release build 
+llvm[2]: Compiling AliasAnalysisCounter.cpp for Release build 
+llvm[2]: Compiling AliasAnalysisEvaluator.cpp for Release build 
+llvm[2]: Compiling AliasDebugger.cpp for Release build 
+llvm[2]: Compiling AliasSetTracker.cpp for Release build 
+llvm[2]: Compiling Analysis.cpp for Release build 
+llvm[2]: Compiling BasicAliasAnalysis.cpp for Release build 
+llvm[2]: Compiling CFGPrinter.cpp for Release build 
+llvm[2]: Compiling CaptureTracking.cpp for Release build 
+llvm[2]: Compiling ConstantFolding.cpp for Release build 
+llvm[2]: Compiling DbgInfoPrinter.cpp for Release build 
+llvm[2]: Compiling DebugInfo.cpp for Release build 
+llvm[2]: Compiling IVUsers.cpp for Release build 
+llvm[2]: Compiling InstCount.cpp for Release build 
+llvm[2]: Compiling Interval.cpp for Release build 
+llvm[2]: Compiling IntervalPartition.cpp for Release build 
+llvm[2]: Compiling LibCallAliasAnalysis.cpp for Release build 
+llvm[2]: Compiling LibCallSemantics.cpp for Release build 
+llvm[2]: Compiling LiveValues.cpp for Release build 
+llvm[2]: Compiling LoopDependenceAnalysis.cpp for Release build 
+llvm[2]: Compiling LoopInfo.cpp for Release build 
+llvm[2]: Compiling LoopPass.cpp for Release build 
+llvm[2]: Compiling LoopVR.cpp for Release build 
+llvm[2]: Compiling MemoryDependenceAnalysis.cpp for Release build 
+llvm[2]: Compiling PointerTracking.cpp for Release build 
+llvm[2]: Compiling PostDominators.cpp for Release build 
+llvm[2]: Compiling ProfileEstimatorPass.cpp for Release build 
+llvm[2]: Compiling ProfileInfo.cpp for Release build 
+llvm[2]: Compiling ProfileInfoLoader.cpp for Release build 
+llvm[2]: Compiling ProfileInfoLoaderPass.cpp for Release build 
+llvm[2]: Compiling ScalarEvolution.cpp for Release build 
+llvm[2]: Compiling ScalarEvolutionExpander.cpp for Release build 
+llvm[2]: Compiling SparsePropagation.cpp for Release build 
+llvm[2]: Compiling Trace.cpp for Release build 
+llvm[2]: Compiling ValueTracking.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMAnalysis.a
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Analysis/IPA'
+llvm[3]: Compiling Andersens.cpp for Release build 
+llvm[3]: Compiling CallGraph.cpp for Release build 
+llvm[3]: Compiling CallGraphSCCPass.cpp for Release build 
+llvm[3]: Compiling FindUsedTypes.cpp for Release build 
+llvm[3]: Compiling GlobalsModRef.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMipa.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Analysis/IPA'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Analysis'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Utils'
+llvm[3]: Compiling AddrModeMatcher.cpp for Release build 
+llvm[3]: Compiling BasicBlockUtils.cpp for Release build 
+llvm[3]: Compiling BasicInliner.cpp for Release build 
+llvm[3]: Compiling BreakCriticalEdges.cpp for Release build 
+llvm[3]: Compiling CloneFunction.cpp for Release build 
+llvm[3]: Compiling CloneLoop.cpp for Release build 
+llvm[3]: Compiling CloneModule.cpp for Release build 
+llvm[3]: Compiling CloneTrace.cpp for Release build 
+llvm[3]: Compiling CodeExtractor.cpp for Release build 
+llvm[3]: Compiling DemoteRegToStack.cpp for Release build 
+llvm[3]: Compiling InlineCost.cpp for Release build 
+llvm[3]: Compiling InlineFunction.cpp for Release build 
+llvm[3]: Compiling InstructionNamer.cpp for Release build 
+llvm[3]: Compiling LCSSA.cpp for Release build 
+llvm[3]: Compiling Local.cpp for Release build 
+llvm[3]: Compiling LoopSimplify.cpp for Release build 
+llvm[3]: Compiling LowerAllocations.cpp for Release build 
+llvm[3]: Compiling LowerInvoke.cpp for Release build 
+llvm[3]: Compiling LowerSwitch.cpp for Release build 
+llvm[3]: Compiling Mem2Reg.cpp for Release build 
+llvm[3]: Compiling PromoteMemoryToRegister.cpp for Release build 
+llvm[3]: Compiling SSI.cpp for Release build 
+llvm[3]: Compiling SimplifyCFG.cpp for Release build 
+llvm[3]: Compiling UnifyFunctionExitNodes.cpp for Release build 
+llvm[3]: Compiling UnrollLoop.cpp for Release build 
+llvm[3]: Compiling ValueMapper.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMTransformUtils.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Utils'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Instrumentation'
+llvm[3]: Compiling BlockProfiling.cpp for Release build 
+llvm[3]: Compiling EdgeProfiling.cpp for Release build 
+llvm[3]: Compiling ProfilingUtils.cpp for Release build 
+llvm[3]: Compiling RSProfiling.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMInstrumentation.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Instrumentation'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Scalar'
+llvm[3]: Compiling ADCE.cpp for Release build 
+llvm[3]: Compiling BasicBlockPlacement.cpp for Release build 
+llvm[3]: Compiling CodeGenPrepare.cpp for Release build 
+llvm[3]: Compiling CondPropagate.cpp for Release build 
+llvm[3]: Compiling ConstantProp.cpp for Release build 
+llvm[3]: Compiling DCE.cpp for Release build 
+llvm[3]: Compiling DeadStoreElimination.cpp for Release build 
+llvm[3]: Compiling GVN.cpp for Release build 
+llvm[3]: Compiling GVNPRE.cpp for Release build 
+llvm[3]: Compiling IndVarSimplify.cpp for Release build 
+llvm[3]: Compiling InstructionCombining.cpp for Release build 
+llvm[3]: Compiling JumpThreading.cpp for Release build 
+llvm[3]: Compiling LICM.cpp for Release build 
+llvm[3]: Compiling LoopDeletion.cpp for Release build 
+llvm[3]: Compiling LoopIndexSplit.cpp for Release build 
+llvm[3]: Compiling LoopRotation.cpp for Release build 
+llvm[3]: Compiling LoopStrengthReduce.cpp for Release build 
+llvm[3]: Compiling LoopUnroll.cpp for Release build 
+llvm[3]: Compiling LoopUnswitch.cpp for Release build 
+llvm[3]: Compiling MemCpyOptimizer.cpp for Release build 
+llvm[3]: Compiling PredicateSimplifier.cpp for Release build 
+llvm[3]: Compiling Reassociate.cpp for Release build 
+llvm[3]: Compiling Reg2Mem.cpp for Release build 
+llvm[3]: Compiling SCCP.cpp for Release build 
+llvm[3]: Compiling Scalar.cpp for Release build 
+llvm[3]: Compiling ScalarReplAggregates.cpp for Release build 
+llvm[3]: Compiling SimplifyCFGPass.cpp for Release build 
+llvm[3]: Compiling SimplifyHalfPowrLibCalls.cpp for Release build 
+llvm[3]: Compiling SimplifyLibCalls.cpp for Release build 
+llvm[3]: Compiling TailDuplication.cpp for Release build 
+llvm[3]: Compiling TailRecursionElimination.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMScalarOpts.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Scalar'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/IPO'
+llvm[3]: Compiling ArgumentPromotion.cpp for Release build 
+llvm[3]: Compiling ConstantMerge.cpp for Release build 
+llvm[3]: Compiling DeadArgumentElimination.cpp for Release build 
+llvm[3]: Compiling DeadTypeElimination.cpp for Release build 
+llvm[3]: Compiling ExtractGV.cpp for Release build 
+llvm[3]: Compiling FunctionAttrs.cpp for Release build 
+llvm[3]: Compiling GlobalDCE.cpp for Release build 
+llvm[3]: Compiling GlobalOpt.cpp for Release build 
+llvm[3]: Compiling IPConstantPropagation.cpp for Release build 
+llvm[3]: Compiling IPO.cpp for Release build 
+llvm[3]: Compiling IndMemRemoval.cpp for Release build 
+llvm[3]: Compiling InlineAlways.cpp for Release build 
+llvm[3]: Compiling InlineSimple.cpp for Release build 
+llvm[3]: Compiling Inliner.cpp for Release build 
+llvm[3]: Compiling Internalize.cpp for Release build 
+llvm[3]: Compiling LoopExtractor.cpp for Release build 
+llvm[3]: Compiling LowerSetJmp.cpp for Release build 
+llvm[3]: Compiling MergeFunctions.cpp for Release build 
+llvm[3]: Compiling PartialInlining.cpp for Release build 
+llvm[3]: Compiling PartialSpecialization.cpp for Release build 
+llvm[3]: Compiling PruneEH.cpp for Release build 
+llvm[3]: Compiling RaiseAllocations.cpp for Release build 
+llvm[3]: Compiling StripDeadPrototypes.cpp for Release build 
+llvm[3]: Compiling StripSymbols.cpp for Release build 
+llvm[3]: Compiling StructRetPromotion.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMipo.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/IPO'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Hello'
+llvm[3]: Compiling Hello.cpp for Release build  (PIC)
+llvm[3]: Linking Release Loadable Module LLVMHello.so
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms/Hello'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Transforms'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CodeGen'
+llvm[2]: Compiling BranchFolding.cpp for Release build 
+llvm[2]: Compiling CodePlacementOpt.cpp for Release build 
+llvm[2]: Compiling DeadMachineInstructionElim.cpp for Release build 
+llvm[2]: Compiling Dump.cpp for Release build 
+llvm[2]: Compiling DwarfEHPrepare.cpp for Release build 
+llvm[2]: Compiling ELFCodeEmitter.cpp for Release build 
+llvm[2]: Compiling ELFWriter.cpp for Release build 
+llvm[2]: Compiling ExactHazardRecognizer.cpp for Release build 
+llvm[2]: Compiling GCMetadata.cpp for Release build 
+llvm[2]: Compiling GCMetadataPrinter.cpp for Release build 
+llvm[2]: Compiling GCStrategy.cpp for Release build 
+llvm[2]: Compiling IfConversion.cpp for Release build 
+llvm[2]: Compiling IntrinsicLowering.cpp for Release build 
+llvm[2]: Compiling LLVMTargetMachine.cpp for Release build 
+llvm[2]: Compiling LatencyPriorityQueue.cpp for Release build 
+llvm[2]: Compiling LazyLiveness.cpp for Release build 
+llvm[2]: Compiling LiveInterval.cpp for Release build 
+llvm[2]: Compiling LiveIntervalAnalysis.cpp for Release build 
+llvm[2]: Compiling LiveStackAnalysis.cpp for Release build 
+llvm[2]: Compiling LiveVariables.cpp for Release build 
+llvm[2]: Compiling LowerSubregs.cpp for Release build 
+llvm[2]: Compiling MachOCodeEmitter.cpp for Release build 
+llvm[2]: Compiling MachOWriter.cpp for Release build 
+llvm[2]: Compiling MachineBasicBlock.cpp for Release build 
+llvm[2]: Compiling MachineDominators.cpp for Release build 
+llvm[2]: Compiling MachineFunction.cpp for Release build 
+llvm[2]: Compiling MachineFunctionAnalysis.cpp for Release build 
+llvm[2]: Compiling MachineFunctionPass.cpp for Release build 
+llvm[2]: Compiling MachineInstr.cpp for Release build 
+llvm[2]: Compiling MachineLICM.cpp for Release build 
+llvm[2]: Compiling MachineLoopInfo.cpp for Release build 
+llvm[2]: Compiling MachineModuleInfo.cpp for Release build 
+llvm[2]: Compiling MachinePassRegistry.cpp for Release build 
+llvm[2]: Compiling MachineRegisterInfo.cpp for Release build 
+llvm[2]: Compiling MachineSink.cpp for Release build 
+llvm[2]: Compiling MachineVerifier.cpp for Release build 
+llvm[2]: Compiling ObjectCodeEmitter.cpp for Release build 
+llvm[2]: Compiling OcamlGC.cpp for Release build 
+llvm[2]: Compiling PHIElimination.cpp for Release build 
+llvm[2]: Compiling Passes.cpp for Release build 
+llvm[2]: Compiling PostRASchedulerList.cpp for Release build 
+llvm[2]: Compiling PreAllocSplitting.cpp for Release build 
+llvm[2]: Compiling PrologEpilogInserter.cpp for Release build 
+llvm[2]: Compiling PseudoSourceValue.cpp for Release build 
+llvm[2]: Compiling RegAllocLinearScan.cpp for Release build 
+llvm[2]: Compiling RegAllocLocal.cpp for Release build 
+llvm[2]: Compiling RegAllocPBQP.cpp for Release build 
+llvm[2]: Compiling RegAllocSimple.cpp for Release build 
+llvm[2]: Compiling RegisterCoalescer.cpp for Release build 
+llvm[2]: Compiling RegisterScavenging.cpp for Release build 
+llvm[2]: Compiling ScheduleDAG.cpp for Release build 
+llvm[2]: Compiling ScheduleDAGEmit.cpp for Release build 
+llvm[2]: Compiling ScheduleDAGInstrs.cpp for Release build 
+llvm[2]: Compiling ScheduleDAGPrinter.cpp for Release build 
+llvm[2]: Compiling ShadowStackGC.cpp for Release build 
+llvm[2]: Compiling ShrinkWrapping.cpp for Release build 
+llvm[2]: Compiling SimpleRegisterCoalescing.cpp for Release build 
+llvm[2]: Compiling SjLjEHPrepare.cpp for Release build 
+llvm[2]: Compiling Spiller.cpp for Release build 
+llvm[2]: Compiling StackProtector.cpp for Release build 
+llvm[2]: Compiling StackSlotColoring.cpp for Release build 
+llvm[2]: Compiling StrongPHIElimination.cpp for Release build 
+llvm[2]: Compiling TargetInstrInfoImpl.cpp for Release build 
+llvm[2]: Compiling TwoAddressInstructionPass.cpp for Release build 
+llvm[2]: Compiling UnreachableBlockElim.cpp for Release build 
+llvm[2]: Compiling VirtRegMap.cpp for Release build 
+llvm[2]: Compiling VirtRegRewriter.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMCodeGen.a
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CodeGen/SelectionDAG'
+llvm[3]: Compiling CallingConvLower.cpp for Release build 
+llvm[3]: Compiling DAGCombiner.cpp for Release build 
+llvm[3]: Compiling FastISel.cpp for Release build 
+llvm[3]: Compiling LegalizeDAG.cpp for Release build 
+llvm[3]: Compiling LegalizeFloatTypes.cpp for Release build 
+llvm[3]: Compiling LegalizeIntegerTypes.cpp for Release build 
+llvm[3]: Compiling LegalizeTypes.cpp for Release build 
+llvm[3]: Compiling LegalizeTypesGeneric.cpp for Release build 
+llvm[3]: Compiling LegalizeVectorOps.cpp for Release build 
+llvm[3]: Compiling LegalizeVectorTypes.cpp for Release build 
+llvm[3]: Compiling ScheduleDAGFast.cpp for Release build 
+llvm[3]: Compiling ScheduleDAGList.cpp for Release build 
+llvm[3]: Compiling ScheduleDAGRRList.cpp for Release build 
+llvm[3]: Compiling ScheduleDAGSDNodes.cpp for Release build 
+llvm[3]: Compiling ScheduleDAGSDNodesEmit.cpp for Release build 
+llvm[3]: Compiling SelectionDAG.cpp for Release build 
+llvm[3]: Compiling SelectionDAGBuild.cpp for Release build 
+llvm[3]: Compiling SelectionDAGISel.cpp for Release build 
+llvm[3]: Compiling SelectionDAGPrinter.cpp for Release build 
+llvm[3]: Compiling TargetLowering.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMSelectionDAG.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CodeGen/SelectionDAG'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CodeGen/AsmPrinter'
+llvm[3]: Compiling AsmPrinter.cpp for Release build 
+llvm[3]: Compiling DIE.cpp for Release build 
+llvm[3]: Compiling DwarfDebug.cpp for Release build 
+llvm[3]: Compiling DwarfException.cpp for Release build 
+llvm[3]: Compiling DwarfLabel.cpp for Release build 
+llvm[3]: Compiling DwarfPrinter.cpp for Release build 
+llvm[3]: Compiling DwarfWriter.cpp for Release build 
+llvm[3]: Compiling OcamlGCPrinter.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMAsmPrinter.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CodeGen/AsmPrinter'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CodeGen'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target'
+llvm[2]: Compiling COFFTargetAsmInfo.cpp for Release build 
+llvm[2]: Compiling DarwinTargetAsmInfo.cpp for Release build 
+llvm[2]: Compiling SubtargetFeature.cpp for Release build 
+llvm[2]: Compiling Target.cpp for Release build 
+llvm[2]: Compiling TargetAsmInfo.cpp for Release build 
+llvm[2]: Compiling TargetData.cpp for Release build 
+llvm[2]: Compiling TargetELFWriterInfo.cpp for Release build 
+llvm[2]: Compiling TargetFrameInfo.cpp for Release build 
+llvm[2]: Compiling TargetInstrInfo.cpp for Release build 
+llvm[2]: Compiling TargetIntrinsicInfo.cpp for Release build 
+llvm[2]: Compiling TargetLoweringObjectFile.cpp for Release build 
+llvm[2]: Compiling TargetMachOWriterInfo.cpp for Release build 
+llvm[2]: Compiling TargetMachine.cpp for Release build 
+llvm[2]: Compiling TargetRegisterInfo.cpp for Release build 
+llvm[2]: Compiling TargetSubtarget.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMTarget.a
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86'
+llvm[3]: Building X86.td register information header with tblgen
+llvm[3]: Building X86.td register names with tblgen
+llvm[3]: Building X86.td register info implementation with tblgen
+llvm[3]: Building X86.td instruction names with tblgen
+llvm[3]: Building X86.td instruction information with tblgen
+llvm[3]: Building X86.td assembly writer with tblgen
+llvm[3]: Building X86.td assembly matcher with tblgen
+llvm[3]: Building X86.td assembly writer #1 with tblgen
+llvm[3]: Building X86.td DAG instruction selector implementation with tblgen
+llvm[3]: Building X86.td "fast" instruction selector implementation with tblgen
+llvm[3]: Building X86.td calling convention information with tblgen
+llvm[3]: Building X86.td subtarget information with tblgen
+llvm[3]: Compiling X86CodeEmitter.cpp for Release build 
+llvm[3]: Compiling X86ELFWriterInfo.cpp for Release build 
+llvm[3]: Compiling X86FastISel.cpp for Release build 
+llvm[3]: Compiling X86FloatingPoint.cpp for Release build 
+llvm[3]: Compiling X86FloatingPointRegKill.cpp for Release build 
+llvm[3]: Compiling X86ISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling X86ISelLowering.cpp for Release build 
+llvm[3]: Compiling X86InstrInfo.cpp for Release build 
+llvm[3]: Compiling X86JITInfo.cpp for Release build 
+llvm[3]: Compiling X86RegisterInfo.cpp for Release build 
+llvm[3]: Compiling X86Subtarget.cpp for Release build 
+llvm[3]: Compiling X86TargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling X86TargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMX86CodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86/AsmPrinter'
+llvm[4]: Compiling X86ATTAsmPrinter.cpp for Release build 
+llvm[4]: Compiling X86ATTInstPrinter.cpp for Release build 
+llvm[4]: Compiling X86AsmPrinter.cpp for Release build 
+llvm[4]: Compiling X86IntelAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMX86AsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86/AsmParser'
+llvm[4]: Compiling X86AsmParser.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMX86AsmParser.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86/AsmParser'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86/TargetInfo'
+llvm[4]: Compiling X86TargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMX86Info.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/X86'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Sparc'
+llvm[3]: Building Sparc.td register information header with tblgen
+llvm[3]: Building Sparc.td register names with tblgen
+llvm[3]: Building Sparc.td register info implementation with tblgen
+llvm[3]: Building Sparc.td instruction names with tblgen
+llvm[3]: Building Sparc.td instruction information with tblgen
+llvm[3]: Building Sparc.td assembly writer with tblgen
+llvm[3]: Building Sparc.td DAG instruction selector implementation with tblgen
+llvm[3]: Building Sparc.td subtarget information with tblgen
+llvm[3]: Building Sparc.td calling convention information with tblgen
+llvm[3]: Compiling DelaySlotFiller.cpp for Release build 
+llvm[3]: Compiling FPMover.cpp for Release build 
+llvm[3]: Compiling SparcISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling SparcISelLowering.cpp for Release build 
+llvm[3]: Compiling SparcInstrInfo.cpp for Release build 
+llvm[3]: Compiling SparcRegisterInfo.cpp for Release build 
+llvm[3]: Compiling SparcSubtarget.cpp for Release build 
+llvm[3]: Compiling SparcTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling SparcTargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMSparcCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Sparc/AsmPrinter'
+llvm[4]: Compiling SparcAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMSparcAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Sparc/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Sparc/TargetInfo'
+llvm[4]: Compiling SparcTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMSparcInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Sparc/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Sparc'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PowerPC'
+llvm[3]: Building PPC.td instruction names with tblgen
+llvm[3]: Building PPC.td register names with tblgen
+llvm[3]: Building PPC.td assembly writer with tblgen
+llvm[3]: Building PPC.td code emitter with tblgen
+llvm[3]: Building PPC.td register information header with tblgen
+llvm[3]: Building PPC.td register info implementation with tblgen
+llvm[3]: Building PPC.td instruction information with tblgen
+llvm[3]: Building PPC.td DAG instruction selector implementation with tblgen
+llvm[3]: Building PPC.td subtarget information with tblgen
+llvm[3]: Building PPC.td calling convention information with tblgen
+llvm[3]: Compiling PPCBranchSelector.cpp for Release build 
+llvm[3]: Compiling PPCCodeEmitter.cpp for Release build 
+llvm[3]: Compiling PPCHazardRecognizers.cpp for Release build 
+llvm[3]: Compiling PPCISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling PPCISelLowering.cpp for Release build 
+llvm[3]: Compiling PPCInstrInfo.cpp for Release build 
+llvm[3]: Compiling PPCJITInfo.cpp for Release build 
+llvm[3]: Compiling PPCMachOWriterInfo.cpp for Release build 
+llvm[3]: Compiling PPCPredicates.cpp for Release build 
+llvm[3]: Compiling PPCRegisterInfo.cpp for Release build 
+llvm[3]: Compiling PPCSubtarget.cpp for Release build 
+llvm[3]: Compiling PPCTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling PPCTargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMPowerPCCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PowerPC/AsmPrinter'
+llvm[4]: Compiling PPCAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMPowerPCAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PowerPC/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PowerPC/TargetInfo'
+llvm[4]: Compiling PowerPCTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMPowerPCInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PowerPC/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PowerPC'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Alpha'
+llvm[3]: Building Alpha.td register information header with tblgen
+llvm[3]: Building Alpha.td register names with tblgen
+llvm[3]: Building Alpha.td register info implementation with tblgen
+llvm[3]: Building Alpha.td instruction names with tblgen
+llvm[3]: Building Alpha.td instruction information with tblgen
+llvm[3]: Building Alpha.td code emitter with tblgen
+llvm[3]: Building Alpha.td assembly writer with tblgen
+llvm[3]: Building Alpha.td DAG instruction selector implementation with tblgen
+llvm[3]: Building Alpha.td calling convention information with tblgen
+llvm[3]: Building Alpha.td subtarget information with tblgen
+llvm[3]: Compiling AlphaBranchSelector.cpp for Release build 
+llvm[3]: Compiling AlphaCodeEmitter.cpp for Release build 
+llvm[3]: Compiling AlphaISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling AlphaISelLowering.cpp for Release build 
+llvm[3]: Compiling AlphaInstrInfo.cpp for Release build 
+llvm[3]: Compiling AlphaJITInfo.cpp for Release build 
+llvm[3]: Compiling AlphaLLRP.cpp for Release build 
+llvm[3]: Compiling AlphaRegisterInfo.cpp for Release build 
+llvm[3]: Compiling AlphaSubtarget.cpp for Release build 
+llvm[3]: Compiling AlphaTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling AlphaTargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMAlphaCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Alpha/AsmPrinter'
+llvm[4]: Compiling AlphaAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMAlphaAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Alpha/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Alpha/TargetInfo'
+llvm[4]: Compiling AlphaTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMAlphaInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Alpha/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Alpha'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/ARM'
+llvm[3]: Building ARM.td register information header with tblgen
+llvm[3]: Building ARM.td register names with tblgen
+llvm[3]: Building ARM.td register info implementation with tblgen
+llvm[3]: Building ARM.td instruction names with tblgen
+llvm[3]: Building ARM.td instruction information with tblgen
+llvm[3]: Building ARM.td assembly writer with tblgen
+llvm[3]: Building ARM.td DAG instruction selector implementation with tblgen
+llvm[3]: Building ARM.td subtarget information with tblgen
+llvm[3]: Building ARM.td code emitter with tblgen
+llvm[3]: Building ARM.td calling convention information with tblgen
+llvm[3]: Compiling ARMBaseInstrInfo.cpp for Release build 
+llvm[3]: Compiling ARMBaseRegisterInfo.cpp for Release build 
+llvm[3]: Compiling ARMCodeEmitter.cpp for Release build 
+llvm[3]: Compiling ARMConstantIslandPass.cpp for Release build 
+llvm[3]: Compiling ARMConstantPoolValue.cpp for Release build 
+llvm[3]: Compiling ARMISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling ARMISelLowering.cpp for Release build 
+llvm[3]: Compiling ARMInstrInfo.cpp for Release build 
+llvm[3]: Compiling ARMJITInfo.cpp for Release build 
+llvm[3]: Compiling ARMLoadStoreOptimizer.cpp for Release build 
+llvm[3]: Compiling ARMRegisterInfo.cpp for Release build 
+llvm[3]: Compiling ARMSubtarget.cpp for Release build 
+llvm[3]: Compiling ARMTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling ARMTargetMachine.cpp for Release build 
+llvm[3]: Compiling NEONPreAllocPass.cpp for Release build 
+llvm[3]: Compiling Thumb1InstrInfo.cpp for Release build 
+llvm[3]: Compiling Thumb1RegisterInfo.cpp for Release build 
+llvm[3]: Compiling Thumb2ITBlockPass.cpp for Release build 
+llvm[3]: Compiling Thumb2InstrInfo.cpp for Release build 
+llvm[3]: Compiling Thumb2RegisterInfo.cpp for Release build 
+llvm[3]: Compiling Thumb2SizeReduction.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMARMCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/ARM/AsmPrinter'
+llvm[4]: Compiling ARMAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMARMAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/ARM/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/ARM/TargetInfo'
+llvm[4]: Compiling ARMTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMARMInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/ARM/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/ARM'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Mips'
+llvm[3]: Building Mips.td register information header with tblgen
+llvm[3]: Building Mips.td register names with tblgen
+llvm[3]: Building Mips.td register info implementation with tblgen
+llvm[3]: Building Mips.td instruction names with tblgen
+llvm[3]: Building Mips.td instruction information with tblgen
+llvm[3]: Building Mips.td assembly writer with tblgen
+llvm[3]: Building Mips.td DAG instruction selector implementation with tblgen
+llvm[3]: Building Mips.td calling convention information with tblgen
+llvm[3]: Building Mips.td subtarget information with tblgen
+llvm[3]: Compiling MipsDelaySlotFiller.cpp for Release build 
+llvm[3]: Compiling MipsISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling MipsISelLowering.cpp for Release build 
+llvm[3]: Compiling MipsInstrInfo.cpp for Release build 
+llvm[3]: Compiling MipsRegisterInfo.cpp for Release build 
+llvm[3]: Compiling MipsSubtarget.cpp for Release build 
+llvm[3]: Compiling MipsTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling MipsTargetMachine.cpp for Release build 
+llvm[3]: Compiling MipsTargetObjectFile.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMMipsCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Mips/AsmPrinter'
+llvm[4]: Compiling MipsAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMMipsAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Mips/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Mips/TargetInfo'
+llvm[4]: Compiling MipsTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMMipsInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Mips/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Mips'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CellSPU'
+llvm[3]: Building SPU.td instruction names with tblgen
+llvm[3]: Building SPU.td register names with tblgen
+llvm[3]: Building SPU.td assembly writer with tblgen
+llvm[3]: Building SPU.td code emitter with tblgen
+llvm[3]: Building SPU.td register information header with tblgen
+llvm[3]: Building SPU.td register info implementation with tblgen
+llvm[3]: Building SPU.td instruction information with tblgen
+llvm[3]: Building SPU.td DAG instruction selector implementation with tblgen
+llvm[3]: Building SPU.td subtarget information with tblgen
+llvm[3]: Building SPU.td calling convention information with tblgen
+llvm[3]: Compiling SPUFrameInfo.cpp for Release build 
+llvm[3]: Compiling SPUHazardRecognizers.cpp for Release build 
+llvm[3]: Compiling SPUISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling SPUISelLowering.cpp for Release build 
+llvm[3]: Compiling SPUInstrInfo.cpp for Release build 
+llvm[3]: Compiling SPURegisterInfo.cpp for Release build 
+llvm[3]: Compiling SPUSubtarget.cpp for Release build 
+llvm[3]: Compiling SPUTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling SPUTargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMCellSPUCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CellSPU/AsmPrinter'
+llvm[4]: Compiling SPUAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMCellSPUAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CellSPU/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CellSPU/TargetInfo'
+llvm[4]: Compiling CellSPUTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMCellSPUInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CellSPU/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CellSPU'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PIC16'
+llvm[3]: Building PIC16.td register information header with tblgen
+llvm[3]: Building PIC16.td register names with tblgen
+llvm[3]: Building PIC16.td register info implementation with tblgen
+llvm[3]: Building PIC16.td instruction names with tblgen
+llvm[3]: Building PIC16.td instruction information with tblgen
+llvm[3]: Building PIC16.td assembly writer with tblgen
+llvm[3]: Building PIC16.td DAG instruction selector implementation with tblgen
+llvm[3]: Building PIC16.td calling convention information with tblgen
+llvm[3]: Building PIC16.td subtarget information with tblgen
+llvm[3]: Compiling PIC16DebugInfo.cpp for Release build 
+llvm[3]: Compiling PIC16ISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling PIC16ISelLowering.cpp for Release build 
+llvm[3]: Compiling PIC16InstrInfo.cpp for Release build 
+llvm[3]: Compiling PIC16MemSelOpt.cpp for Release build 
+llvm[3]: Compiling PIC16RegisterInfo.cpp for Release build 
+llvm[3]: Compiling PIC16Subtarget.cpp for Release build 
+llvm[3]: Compiling PIC16TargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling PIC16TargetMachine.cpp for Release build 
+llvm[3]: Compiling PIC16TargetObjectFile.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMPIC16CodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PIC16/AsmPrinter'
+llvm[4]: Compiling PIC16AsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMPIC16AsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PIC16/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PIC16/TargetInfo'
+llvm[4]: Compiling PIC16TargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMPIC16Info.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PIC16/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/PIC16'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/XCore'
+llvm[3]: Building XCore.td register information header with tblgen
+llvm[3]: Building XCore.td register names with tblgen
+llvm[3]: Building XCore.td register info implementation with tblgen
+llvm[3]: Building XCore.td instruction names with tblgen
+llvm[3]: Building XCore.td instruction information with tblgen
+llvm[3]: Building XCore.td assembly writer with tblgen
+llvm[3]: Building XCore.td DAG instruction selector implementation with tblgen
+llvm[3]: Building XCore.td calling convention information with tblgen
+llvm[3]: Building XCore.td subtarget information with tblgen
+llvm[3]: Compiling MCSectionXCore.cpp for Release build 
+llvm[3]: Compiling XCoreFrameInfo.cpp for Release build 
+llvm[3]: Compiling XCoreISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling XCoreISelLowering.cpp for Release build 
+llvm[3]: Compiling XCoreInstrInfo.cpp for Release build 
+llvm[3]: Compiling XCoreRegisterInfo.cpp for Release build 
+llvm[3]: Compiling XCoreSubtarget.cpp for Release build 
+llvm[3]: Compiling XCoreTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling XCoreTargetMachine.cpp for Release build 
+llvm[3]: Compiling XCoreTargetObjectFile.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMXCoreCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/XCore/AsmPrinter'
+llvm[4]: Compiling XCoreAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMXCoreAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/XCore/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/XCore/TargetInfo'
+llvm[4]: Compiling XCoreTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMXCoreInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/XCore/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/XCore'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSP430'
+llvm[3]: Building MSP430.td register information header with tblgen
+llvm[3]: Building MSP430.td register names with tblgen
+llvm[3]: Building MSP430.td register info implementation with tblgen
+llvm[3]: Building MSP430.td instruction names with tblgen
+llvm[3]: Building MSP430.td instruction information with tblgen
+llvm[3]: Building MSP430.td assembly writer with tblgen
+llvm[3]: Building MSP430.td DAG instruction selector implementation with tblgen
+llvm[3]: Building MSP430.td calling convention information with tblgen
+llvm[3]: Building MSP430.td subtarget information with tblgen
+llvm[3]: Compiling MSP430ISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling MSP430ISelLowering.cpp for Release build 
+llvm[3]: Compiling MSP430InstrInfo.cpp for Release build 
+llvm[3]: Compiling MSP430RegisterInfo.cpp for Release build 
+llvm[3]: Compiling MSP430Subtarget.cpp for Release build 
+llvm[3]: Compiling MSP430TargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling MSP430TargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMMSP430CodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSP430/AsmPrinter'
+llvm[4]: Compiling MSP430AsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMMSP430AsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSP430/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSP430/TargetInfo'
+llvm[4]: Compiling MSP430TargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMMSP430Info.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSP430/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSP430'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/SystemZ'
+llvm[3]: Building SystemZ.td register information header with tblgen
+llvm[3]: Building SystemZ.td register names with tblgen
+llvm[3]: Building SystemZ.td register info implementation with tblgen
+llvm[3]: Building SystemZ.td instruction names with tblgen
+llvm[3]: Building SystemZ.td instruction information with tblgen
+llvm[3]: Building SystemZ.td assembly writer with tblgen
+llvm[3]: Building SystemZ.td DAG instruction selector implementation with tblgen
+llvm[3]: Building SystemZ.td subtarget information with tblgen
+llvm[3]: Building SystemZ.td calling convention information with tblgen
+llvm[3]: Compiling SystemZISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling SystemZISelLowering.cpp for Release build 
+llvm[3]: Compiling SystemZInstrInfo.cpp for Release build 
+llvm[3]: Compiling SystemZRegisterInfo.cpp for Release build 
+llvm[3]: Compiling SystemZSubtarget.cpp for Release build 
+llvm[3]: Compiling SystemZTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling SystemZTargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMSystemZCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/SystemZ/AsmPrinter'
+llvm[4]: Compiling SystemZAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMSystemZAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/SystemZ/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/SystemZ/TargetInfo'
+llvm[4]: Compiling SystemZTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMSystemZInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/SystemZ/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/SystemZ'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Blackfin'
+llvm[3]: Building Blackfin.td register information header with tblgen
+llvm[3]: Building Blackfin.td register names with tblgen
+llvm[3]: Building Blackfin.td register info implementation with tblgen
+llvm[3]: Building Blackfin.td instruction names with tblgen
+llvm[3]: Building Blackfin.td instruction information with tblgen
+llvm[3]: Building Blackfin.td assembly writer with tblgen
+llvm[3]: Building Blackfin.td DAG instruction selector implementation with tblgen
+llvm[3]: Building Blackfin.td subtarget information with tblgen
+llvm[3]: Building Blackfin.td calling convention information with tblgen
+llvm[3]: Compiling BlackfinISelDAGToDAG.cpp for Release build 
+llvm[3]: Compiling BlackfinISelLowering.cpp for Release build 
+llvm[3]: Compiling BlackfinInstrInfo.cpp for Release build 
+llvm[3]: Compiling BlackfinRegisterInfo.cpp for Release build 
+llvm[3]: Compiling BlackfinSubtarget.cpp for Release build 
+llvm[3]: Compiling BlackfinTargetAsmInfo.cpp for Release build 
+llvm[3]: Compiling BlackfinTargetMachine.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMBlackfinCodeGen.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Blackfin/AsmPrinter'
+llvm[4]: Compiling BlackfinAsmPrinter.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMBlackfinAsmPrinter.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Blackfin/AsmPrinter'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Blackfin/TargetInfo'
+llvm[4]: Compiling BlackfinTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMBlackfinInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Blackfin/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/Blackfin'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CBackend'
+llvm[3]: Compiling CBackend.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMCBackend.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CBackend/TargetInfo'
+llvm[4]: Compiling CBackendTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMCBackendInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CBackend/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CBackend'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSIL'
+llvm[3]: Compiling MSILWriter.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMMSIL.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSIL/TargetInfo'
+llvm[4]: Compiling MSILTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMMSILInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSIL/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/MSIL'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CppBackend'
+llvm[3]: Compiling CPPBackend.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMCppBackend.a
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CppBackend/TargetInfo'
+llvm[4]: Compiling CppBackendTargetInfo.cpp for Release build 
+llvm[4]: Building Release Archive Library libLLVMCppBackendInfo.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CppBackend/TargetInfo'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target/CppBackend'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Target'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/ExecutionEngine'
+llvm[2]: Compiling ExecutionEngine.cpp for Release build 
+llvm[2]: Compiling ExecutionEngineBindings.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMExecutionEngine.a
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/ExecutionEngine/Interpreter'
+llvm[3]: Compiling Execution.cpp for Release build 
+llvm[3]: Compiling ExternalFunctions.cpp for Release build 
+llvm[3]: Compiling Interpreter.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMInterpreter.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/ExecutionEngine/Interpreter'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/ExecutionEngine/JIT'
+llvm[3]: Compiling Intercept.cpp for Release build 
+llvm[3]: Compiling JIT.cpp for Release build 
+llvm[3]: Compiling JITDwarfEmitter.cpp for Release build 
+llvm[3]: Compiling JITEmitter.cpp for Release build 
+llvm[3]: Compiling JITMemoryManager.cpp for Release build 
+llvm[3]: Compiling MacOSJITEventListener.cpp for Release build 
+llvm[3]: Compiling OProfileJITEventListener.cpp for Release build 
+llvm[3]: Compiling TargetSelect.cpp for Release build 
+llvm[3]: Building Release Archive Library libLLVMJIT.a
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/ExecutionEngine/JIT'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/ExecutionEngine'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Debugger'
+llvm[2]: Compiling Debugger.cpp for Release build 
+llvm[2]: Compiling ProgramInfo.cpp for Release build 
+llvm[2]: Compiling RuntimeInfo.cpp for Release build 
+llvm[2]: Compiling SourceFile.cpp for Release build 
+llvm[2]: Compiling SourceLanguage.cpp for Release build 
+llvm[2]: Compiling SourceLanguage-CFamily.cpp for Release build 
+llvm[2]: Compiling SourceLanguage-CPlusPlus.cpp for Release build 
+llvm[2]: Compiling SourceLanguage-Unknown.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMDebugger.a
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Debugger'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Linker'
+llvm[2]: Compiling LinkArchives.cpp for Release build 
+llvm[2]: Compiling LinkItems.cpp for Release build 
+llvm[2]: Compiling LinkModules.cpp for Release build 
+llvm[2]: Compiling Linker.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMLinker.a
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/Linker'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/MC'
+llvm[2]: Compiling MCAsmLexer.cpp for Release build 
+llvm[2]: Compiling MCAsmParser.cpp for Release build 
+llvm[2]: Compiling MCAsmStreamer.cpp for Release build 
+llvm[2]: Compiling MCAssembler.cpp for Release build 
+llvm[2]: Compiling MCContext.cpp for Release build 
+llvm[2]: Compiling MCMachOStreamer.cpp for Release build 
+llvm[2]: Compiling MCNullStreamer.cpp for Release build 
+llvm[2]: Compiling MCSection.cpp for Release build 
+llvm[2]: Compiling MCSectionELF.cpp for Release build 
+llvm[2]: Compiling MCSectionMachO.cpp for Release build 
+llvm[2]: Compiling MCStreamer.cpp for Release build 
+llvm[2]: Compiling MCSymbol.cpp for Release build 
+llvm[2]: Compiling MCValue.cpp for Release build 
+llvm[2]: Compiling TargetAsmParser.cpp for Release build 
+llvm[2]: Building Release Archive Library libLLVMMC.a
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/MC'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CompilerDriver'
+llvm[2]: Compiling Action.cpp for Release build 
+llvm[2]: Compiling BuiltinOptions.cpp for Release build 
+llvm[2]: Compiling CompilationGraph.cpp for Release build 
+llvm[2]: Compiling Main.cpp for Release build 
+llvm[2]: Compiling Plugin.cpp for Release build 
+llvm[2]: Compiling Tool.cpp for Release build 
+llvm[2]: Building Release Archive Library libCompilerDriver.a
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib/CompilerDriver'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/lib'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-config'
+llvm[1]: Regenerating LibDeps.txt.tmp
+llvm[1]: Updated LibDeps.txt because dependencies changed
+llvm[1]: Checking for cyclic dependencies between LLVM libraries.
+llvm[1]: Building llvm-config script.
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-config'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-config'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-config'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/lto'
+llvm[2]: Compiling LTOCodeGenerator.cpp for Release build  (PIC)
+llvm[2]: Compiling LTOModule.cpp for Release build  (PIC)
+llvm[2]: Compiling lto.cpp for Release build  (PIC)
+llvm[2]: Linking Release Shared Library LTO.so
+llvm[2]: Building Release Archive Library libLTO.a
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/lto'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/opt'
+llvm[2]: Compiling AnalysisWrappers.cpp for Release build 
+llvm[2]: Compiling GraphPrinters.cpp for Release build 
+llvm[2]: Compiling PrintSCC.cpp for Release build 
+llvm[2]: Compiling opt.cpp for Release build 
+llvm[2]: Linking Release executable opt (without symbols)
+llvm[2]: ======= Finished Linking Release Executable opt (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/opt'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-as'
+llvm[2]: Compiling llvm-as.cpp for Release build 
+llvm[2]: Linking Release executable llvm-as (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-as (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-as'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-dis'
+llvm[2]: Compiling llvm-dis.cpp for Release build 
+llvm[2]: Linking Release executable llvm-dis (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-dis (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-dis'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llc'
+llvm[2]: Compiling llc.cpp for Release build 
+llvm[2]: Linking Release executable llc (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llc (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llc'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-ranlib'
+llvm[2]: Compiling llvm-ranlib.cpp for Release build 
+llvm[2]: Linking Release executable llvm-ranlib (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-ranlib (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-ranlib'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-ar'
+llvm[2]: Compiling llvm-ar.cpp for Release build 
+llvm[2]: Linking Release executable llvm-ar (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-ar (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-ar'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-nm'
+llvm[2]: Compiling llvm-nm.cpp for Release build 
+llvm[2]: Linking Release executable llvm-nm (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-nm (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-nm'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-ld'
+llvm[2]: Compiling Optimize.cpp for Release build 
+llvm[2]: Compiling llvm-ld.cpp for Release build 
+llvm[2]: Linking Release executable llvm-ld (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-ld (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-ld'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-prof'
+llvm[2]: Compiling llvm-prof.cpp for Release build 
+llvm[2]: Linking Release executable llvm-prof (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-prof (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-prof'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-link'
+llvm[2]: Compiling llvm-link.cpp for Release build 
+llvm[2]: Linking Release executable llvm-link (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-link (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-link'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/lli'
+llvm[2]: Compiling lli.cpp for Release build 
+llvm[2]: Linking Release executable lli (without symbols)
+llvm[2]: ======= Finished Linking Release Executable lli (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/lli'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/gccas'
+llvm[2]: Making /local_home/sarahsong/Thrille-simple/src/llvm-2.6/Release/bin/gccas shell script.
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/gccas'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/gccld'
+llvm[2]: Making /local_home/sarahsong/Thrille-simple/src/llvm-2.6/Release/bin/gccld shell script.
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/gccld'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-extract'
+llvm[2]: Compiling llvm-extract.cpp for Release build 
+llvm[2]: Linking Release executable llvm-extract (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-extract (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-extract'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-db'
+llvm[2]: Compiling CLIDebugger.cpp for Release build 
+llvm[2]: Compiling Commands.cpp for Release build 
+llvm[2]: Compiling llvm-db.cpp for Release build 
+llvm[2]: Linking Release executable llvm-db (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-db (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-db'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/bugpoint'
+llvm[2]: Compiling BugDriver.cpp for Release build 
+llvm[2]: Compiling CrashDebugger.cpp for Release build 
+llvm[2]: Compiling ExecutionDriver.cpp for Release build 
+llvm[2]: Compiling ExtractFunction.cpp for Release build 
+llvm[2]: Compiling FindBugs.cpp for Release build 
+llvm[2]: Compiling Miscompilation.cpp for Release build 
+llvm[2]: Compiling OptimizerDriver.cpp for Release build 
+llvm[2]: Compiling TestPasses.cpp for Release build 
+llvm[2]: Compiling ToolRunner.cpp for Release build 
+llvm[2]: Compiling bugpoint.cpp for Release build 
+llvm[2]: Linking Release executable bugpoint (without symbols)
+llvm[2]: ======= Finished Linking Release Executable bugpoint (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/bugpoint'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-bcanalyzer'
+llvm[2]: Compiling llvm-bcanalyzer.cpp for Release build 
+llvm[2]: Linking Release executable llvm-bcanalyzer (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-bcanalyzer (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-bcanalyzer'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-stub'
+llvm[2]: Compiling llvm-stub.c for Release build
+llvm[2]: Linking Release executable llvm-stub (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-stub (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-stub'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-mc'
+llvm[2]: Compiling AsmExpr.cpp for Release build 
+llvm[2]: Compiling AsmLexer.cpp for Release build 
+llvm[2]: Compiling AsmParser.cpp for Release build 
+llvm[2]: Compiling llvm-mc.cpp for Release build 
+llvm[2]: Linking Release executable llvm-mc (without symbols)
+llvm[2]: ======= Finished Linking Release Executable llvm-mc (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvm-mc'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/plugins'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/plugins/Base'
+llvm[4]: Building LLVMC configuration library with tblgen
+llvm[4]: Compiling PluginMain.cpp for Release build 
+llvm[4]: Building Release Archive Library libplugin_llvmc_Base.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/plugins/Base'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/plugins/Clang'
+llvm[4]: Building LLVMC configuration library with tblgen
+llvm[4]: Compiling PluginMain.cpp for Release build 
+llvm[4]: Building Release Archive Library libplugin_llvmc_Clang.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/plugins/Clang'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/plugins'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/driver'
+llvm[3]: Compiling Main.cpp for Release build 
+llvm[3]: Linking Release executable llvmc (without symbols)
+llvm[3]: ======= Finished Linking Release Executable llvmc (without symbols)
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc/driver'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools/llvmc'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/tools'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/runtime'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/runtime/libprofile'
+llvm[2]: Compiling BasicBlockTracing.c for Release build (PIC)
+llvm[2]: Compiling BlockProfiling.c for Release build (PIC)
+llvm[2]: Compiling CommonProfiling.c for Release build (PIC)
+llvm[2]: Compiling EdgeProfiling.c for Release build (PIC)
+llvm[2]: Compiling FunctionProfiling.c for Release build (PIC)
+llvm[2]: Linking Release Loadable Module profile_rt.so
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/runtime/libprofile'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/runtime'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/docs'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/docs/CommandGuide'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/docs/CommandGuide'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/docs/tutorial'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/docs/tutorial'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/docs'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/BrainF'
+llvm[2]: Compiling BrainF.cpp for Release build 
+llvm[2]: Compiling BrainFDriver.cpp for Release build 
+llvm[2]: Linking Release executable BrainF (without symbols)
+llvm[2]: ======= Finished Linking Release Executable BrainF (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/BrainF'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/Fibonacci'
+llvm[2]: Compiling fibonacci.cpp for Release build 
+llvm[2]: Linking Release executable Fibonacci (without symbols)
+llvm[2]: ======= Finished Linking Release Executable Fibonacci (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/Fibonacci'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/HowToUseJIT'
+llvm[2]: Compiling HowToUseJIT.cpp for Release build 
+llvm[2]: Linking Release executable HowToUseJIT (without symbols)
+llvm[2]: ======= Finished Linking Release Executable HowToUseJIT (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/HowToUseJIT'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/Kaleidoscope'
+llvm[2]: Compiling toy.cpp for Release build 
+llvm[2]: Linking Release executable Kaleidoscope (without symbols)
+llvm[2]: ======= Finished Linking Release Executable Kaleidoscope (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/Kaleidoscope'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/ModuleMaker'
+llvm[2]: Compiling ModuleMaker.cpp for Release build 
+llvm[2]: Linking Release executable ModuleMaker (without symbols)
+llvm[2]: ======= Finished Linking Release Executable ModuleMaker (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/ModuleMaker'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/ParallelJIT'
+llvm[2]: Compiling ParallelJIT.cpp for Release build 
+llvm[2]: Linking Release executable ParallelJIT (without symbols)
+llvm[2]: ======= Finished Linking Release Executable ParallelJIT (without symbols)
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples/ParallelJIT'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/examples'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/lib'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/lib/sample'
+llvm[4]: Compiling sample.c for Release build
+llvm[4]: Building Release Archive Library libsample.a
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/lib/sample'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/lib'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/tools'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/tools/sample'
+llvm[4]: Compiling main.c for Release build
+llvm[4]: Linking Release executable Sample (without symbols)
+llvm[4]: ======= Finished Linking Release Executable Sample (without symbols)
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/tools/sample'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample/tools'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects/sample'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/projects'
+make[1]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings'
+make[2]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/llvm'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/llvm'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/llvm'
+llvm[3]: Compiling llvm_ocaml.c for Release build
+llvm[3]: Building Release Archive Library libllvm.a
+llvm[3]: Building Release libllvm.a
+llvm[3]: Compiling llvm.mli for Release build
+llvm[3]: Compiling llvm.ml for Release build
+llvm[3]: Archiving llvm.cma for Release build
+llvm[3]: Compiling optimized llvm.ml for Release build
+llvm[3]: Archiving llvm.cmxa for Release build
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/llvm'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitreader'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitreader'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitreader'
+llvm[3]: Compiling bitreader_ocaml.c for Release build
+llvm[3]: Building Release Archive Library libllvm_bitreader.a
+llvm[3]: Building Release libllvm_bitreader.a
+llvm[3]: Compiling llvm_bitreader.mli for Release build
+llvm[3]: Compiling llvm_bitreader.ml for Release build
+llvm[3]: Archiving llvm_bitreader.cma for Release build
+llvm[3]: Compiling optimized llvm_bitreader.ml for Release build
+llvm[3]: Archiving llvm_bitreader.cmxa for Release build
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitreader'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitwriter'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitwriter'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitwriter'
+llvm[3]: Compiling bitwriter_ocaml.c for Release build
+llvm[3]: Building Release Archive Library libllvm_bitwriter.a
+llvm[3]: Building Release libllvm_bitwriter.a
+llvm[3]: Compiling llvm_bitwriter.mli for Release build
+llvm[3]: Compiling llvm_bitwriter.ml for Release build
+llvm[3]: Archiving llvm_bitwriter.cma for Release build
+llvm[3]: Compiling optimized llvm_bitwriter.ml for Release build
+llvm[3]: Archiving llvm_bitwriter.cmxa for Release build
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/bitwriter'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/analysis'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/analysis'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/analysis'
+llvm[3]: Compiling analysis_ocaml.c for Release build
+llvm[3]: Building Release Archive Library libllvm_analysis.a
+llvm[3]: Building Release libllvm_analysis.a
+llvm[3]: Compiling llvm_analysis.mli for Release build
+llvm[3]: Compiling llvm_analysis.ml for Release build
+llvm[3]: Archiving llvm_analysis.cma for Release build
+llvm[3]: Compiling optimized llvm_analysis.ml for Release build
+llvm[3]: Archiving llvm_analysis.cmxa for Release build
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/analysis'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/target'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/target'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/target'
+llvm[3]: Compiling target_ocaml.c for Release build
+llvm[3]: Building Release Archive Library libllvm_target.a
+llvm[3]: Building Release libllvm_target.a
+llvm[3]: Compiling llvm_target.mli for Release build
+llvm[3]: Compiling llvm_target.ml for Release build
+llvm[3]: Archiving llvm_target.cma for Release build
+llvm[3]: Compiling optimized llvm_target.ml for Release build
+llvm[3]: Archiving llvm_target.cmxa for Release build
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/target'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/executionengine'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/executionengine'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/executionengine'
+llvm[3]: Compiling executionengine_ocaml.c for Release build
+llvm[3]: Building Release Archive Library libllvm_executionengine.a
+llvm[3]: Building Release libllvm_executionengine.a
+llvm[3]: Compiling llvm_executionengine.mli for Release build
+llvm[3]: Compiling llvm_executionengine.ml for Release build
+llvm[3]: Archiving llvm_executionengine.cma for Release build
+llvm[3]: Compiling optimized llvm_executionengine.ml for Release build
+llvm[3]: Archiving llvm_executionengine.cmxa for Release build
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/executionengine'
+make[3]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/transforms'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/transforms/scalar'
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/transforms/scalar'
+make[4]: Entering directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/transforms/scalar'
+llvm[4]: Compiling scalar_opts_ocaml.c for Release build
+llvm[4]: Building Release Archive Library libllvm_scalar_opts.a
+llvm[4]: Building Release libllvm_scalar_opts.a
+llvm[4]: Compiling llvm_scalar_opts.mli for Release build
+llvm[4]: Compiling llvm_scalar_opts.ml for Release build
+llvm[4]: Archiving llvm_scalar_opts.cma for Release build
+llvm[4]: Compiling optimized llvm_scalar_opts.ml for Release build
+llvm[4]: Archiving llvm_scalar_opts.cmxa for Release build
+make[4]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/transforms/scalar'
+make[3]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml/transforms'
+make[2]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings/ocaml'
+make[1]: Leaving directory `/local_home/sarahsong/Thrille-simple/src/llvm-2.6/bindings'
+llvm[0]: ***** Completed Release Build

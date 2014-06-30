@@ -1,0 +1,154 @@
+//===- TableGen'erated file -------------------------------------*- C++ -*-===//
+//
+// Target Instruction Descriptors
+//
+// Automatically generated file, do not edit!
+//
+//===----------------------------------------------------------------------===//
+
+namespace llvm {
+
+static const unsigned ImplicitList1[] = { XCore::SP, 0 };
+static const unsigned ImplicitList2[] = { XCore::R0, XCore::R1, XCore::R2, XCore::R3, XCore::R11, XCore::LR, 0 };
+static const unsigned ImplicitList3[] = { XCore::R11, 0 };
+
+static const TargetOperandInfo OperandInfo2[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo3[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo4[] = { { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo5[] = { { 0, 0, 0 }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo6[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, ((0 << 16) | (1 << TOI::TIED_TO)) }, { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo7[] = { { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo8[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo9[] = { { XCore::GRRegsRegClassID, 0, 0 }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo10[] = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo11[] = { { 0, 0, 0 }, { 0, 0, ((0 << 16) | (1 << TOI::TIED_TO)) }, { 0, 0, 0 }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo12[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo13[] = { { XCore::GRRegsRegClassID, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo14[] = { { XCore::RRegsRegClassID, 0, 0 }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo15[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo16[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, ((0 << 16) | (1 << TOI::TIED_TO)) }, { XCore::GRRegsRegClassID, 0, ((1 << 16) | (1 << TOI::TIED_TO)) }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo17[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, 0 }, };
+static const TargetOperandInfo OperandInfo18[] = { { XCore::GRRegsRegClassID, 0, 0 }, { XCore::GRRegsRegClassID, 0, ((0 << 16) | (1 << TOI::TIED_TO)) }, { 0, 0, 0 }, };
+static const TargetOperandInfo OperandInfo19[] = { { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, { 0, 0, 0 }, };
+
+static const TargetInstrDesc XCoreInsts[] = {
+  { 0,	0,	0,	0,	"PHI", 0|(1<<TID::Variadic)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, 0 },  // Inst #0 = PHI
+  { 1,	0,	0,	0,	"INLINEASM", 0|(1<<TID::Variadic)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, 0 },  // Inst #1 = INLINEASM
+  { 2,	1,	0,	0,	"DBG_LABEL", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #2 = DBG_LABEL
+  { 3,	1,	0,	0,	"EH_LABEL", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #3 = EH_LABEL
+  { 4,	1,	0,	0,	"GC_LABEL", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #4 = GC_LABEL
+  { 5,	0,	0,	0,	"DECLARE", 0|(1<<TID::Variadic)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, 0 },  // Inst #5 = DECLARE
+  { 6,	3,	1,	0,	"EXTRACT_SUBREG", 0, 0, NULL, NULL, NULL, OperandInfo10 },  // Inst #6 = EXTRACT_SUBREG
+  { 7,	4,	1,	0,	"INSERT_SUBREG", 0, 0, NULL, NULL, NULL, OperandInfo11 },  // Inst #7 = INSERT_SUBREG
+  { 8,	1,	1,	0,	"IMPLICIT_DEF", 0|(1<<TID::Rematerializable)|(1<<TID::CheapAsAMove), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #8 = IMPLICIT_DEF
+  { 9,	4,	1,	0,	"SUBREG_TO_REG", 0, 0, NULL, NULL, NULL, OperandInfo19 },  // Inst #9 = SUBREG_TO_REG
+  { 10,	3,	1,	0,	"COPY_TO_REGCLASS", 0|(1<<TID::CheapAsAMove), 0, NULL, NULL, NULL, OperandInfo10 },  // Inst #10 = COPY_TO_REGCLASS
+  { 11,	3,	1,	0,	"ADD_2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #11 = ADD_2rus
+  { 12,	3,	1,	0,	"ADD_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #12 = ADD_3r
+  { 13,	1,	0,	0,	"ADJCALLSTACKDOWN", 0, 0, ImplicitList1, ImplicitList1, NULL, OperandInfo4 },  // Inst #13 = ADJCALLSTACKDOWN
+  { 14,	2,	0,	0,	"ADJCALLSTACKUP", 0, 0, ImplicitList1, ImplicitList1, NULL, OperandInfo5 },  // Inst #14 = ADJCALLSTACKUP
+  { 15,	3,	1,	0,	"ANDNOT_2r", 0, 0, NULL, NULL, NULL, OperandInfo6 },  // Inst #15 = ANDNOT_2r
+  { 16,	3,	1,	0,	"AND_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #16 = AND_3r
+  { 17,	3,	1,	0,	"ASHR_l2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #17 = ASHR_l2rus
+  { 18,	3,	1,	0,	"ASHR_l3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #18 = ASHR_l3r
+  { 19,	1,	0,	0,	"BAU_1r", 0|(1<<TID::Branch)|(1<<TID::IndirectBranch)|(1<<TID::Terminator), 0, NULL, NULL, NULL, OperandInfo7 },  // Inst #19 = BAU_1r
+  { 20,	2,	1,	0,	"BITREV_l2r", 0, 0, NULL, NULL, NULL, OperandInfo8 },  // Inst #20 = BITREV_l2r
+  { 21,	1,	0,	0,	"BLA_1r", 0|(1<<TID::Call)|(1<<TID::Variadic), 0, NULL, ImplicitList2, NULL, OperandInfo7 },  // Inst #21 = BLA_1r
+  { 22,	1,	0,	0,	"BL_lu10", 0|(1<<TID::Call)|(1<<TID::Variadic), 0, NULL, ImplicitList2, NULL, OperandInfo4 },  // Inst #22 = BL_lu10
+  { 23,	1,	0,	0,	"BL_u10", 0|(1<<TID::Call)|(1<<TID::Variadic), 0, NULL, ImplicitList2, NULL, OperandInfo4 },  // Inst #23 = BL_u10
+  { 24,	2,	0,	0,	"BRBF_lru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #24 = BRBF_lru6
+  { 25,	2,	0,	0,	"BRBF_ru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #25 = BRBF_ru6
+  { 26,	2,	0,	0,	"BRBT_lru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #26 = BRBT_lru6
+  { 27,	2,	0,	0,	"BRBT_ru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #27 = BRBT_ru6
+  { 28,	1,	0,	0,	"BRBU_lu6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #28 = BRBU_lu6
+  { 29,	1,	0,	0,	"BRBU_u6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #29 = BRBU_u6
+  { 30,	2,	0,	0,	"BRFF_lru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #30 = BRFF_lru6
+  { 31,	2,	0,	0,	"BRFF_ru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #31 = BRFF_ru6
+  { 32,	2,	0,	0,	"BRFT_lru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #32 = BRFT_lru6
+  { 33,	2,	0,	0,	"BRFT_ru6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #33 = BRFT_ru6
+  { 34,	1,	0,	0,	"BRFU_lu6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #34 = BRFU_lu6
+  { 35,	1,	0,	0,	"BRFU_u6", 0|(1<<TID::Branch)|(1<<TID::Terminator)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo4 },  // Inst #35 = BRFU_u6
+  { 36,	2,	1,	0,	"BYTEREV_l2r", 0, 0, NULL, NULL, NULL, OperandInfo8 },  // Inst #36 = BYTEREV_l2r
+  { 37,	2,	1,	0,	"CLZ_l2r", 0, 0, NULL, NULL, NULL, OperandInfo8 },  // Inst #37 = CLZ_l2r
+  { 38,	3,	1,	0,	"DIVS_l3r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #38 = DIVS_l3r
+  { 39,	3,	1,	0,	"DIVU_l3r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #39 = DIVU_l3r
+  { 40,	1,	0,	0,	"ECALLF_1r", 0|(1<<TID::Barrier)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo7 },  // Inst #40 = ECALLF_1r
+  { 41,	1,	0,	0,	"ECALLT_1r", 0|(1<<TID::Barrier)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo7 },  // Inst #41 = ECALLT_1r
+  { 42,	1,	0,	0,	"ENTSP_lu6", 0|(1<<TID::MayStore)|(1<<TID::UnmodeledSideEffects), 0, ImplicitList1, ImplicitList1, NULL, OperandInfo4 },  // Inst #42 = ENTSP_lu6
+  { 43,	1,	0,	0,	"ENTSP_u6", 0|(1<<TID::MayStore)|(1<<TID::UnmodeledSideEffects), 0, ImplicitList1, ImplicitList1, NULL, OperandInfo4 },  // Inst #43 = ENTSP_u6
+  { 44,	3,	1,	0,	"EQ_2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #44 = EQ_2rus
+  { 45,	3,	1,	0,	"EQ_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #45 = EQ_3r
+  { 46,	1,	0,	0,	"EXTSP_lu6", 0, 0, ImplicitList1, ImplicitList1, NULL, OperandInfo4 },  // Inst #46 = EXTSP_lu6
+  { 47,	1,	0,	0,	"EXTSP_u6", 0, 0, ImplicitList1, ImplicitList1, NULL, OperandInfo4 },  // Inst #47 = EXTSP_u6
+  { 48,	0,	0,	0,	"GETID_0R", 0, 0, NULL, ImplicitList3, NULL, 0 },  // Inst #48 = GETID_0R
+  { 49,	5,	2,	0,	"LADD_l5r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo12 },  // Inst #49 = LADD_l5r
+  { 50,	3,	1,	0,	"LD16S_3r", 0|(1<<TID::MayLoad)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #50 = LD16S_3r
+  { 51,	3,	1,	0,	"LD8U_3r", 0|(1<<TID::MayLoad)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #51 = LD8U_3r
+  { 52,	3,	1,	0,	"LDA16B_l3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #52 = LDA16B_l3r
+  { 53,	3,	1,	0,	"LDA16F_l3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #53 = LDA16F_l3r
+  { 54,	1,	0,	0,	"LDAP_lu10", 0|(1<<TID::Rematerializable), 0, NULL, ImplicitList3, NULL, OperandInfo4 },  // Inst #54 = LDAP_lu10
+  { 55,	1,	0,	0,	"LDAP_u10", 0|(1<<TID::Rematerializable), 0, NULL, ImplicitList3, NULL, OperandInfo4 },  // Inst #55 = LDAP_u10
+  { 56,	3,	1,	0,	"LDAWB_l2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #56 = LDAWB_l2rus
+  { 57,	3,	1,	0,	"LDAWB_l3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #57 = LDAWB_l3r
+  { 58,	2,	0,	0,	"LDAWCP_lu6", 0|(1<<TID::Rematerializable), 0, NULL, ImplicitList3, NULL, OperandInfo5 },  // Inst #58 = LDAWCP_lu6
+  { 59,	2,	0,	0,	"LDAWCP_u6", 0|(1<<TID::Rematerializable), 0, NULL, ImplicitList3, NULL, OperandInfo5 },  // Inst #59 = LDAWCP_u6
+  { 60,	3,	1,	0,	"LDAWDP_lru6", 0|(1<<TID::Rematerializable), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #60 = LDAWDP_lru6
+  { 61,	3,	1,	0,	"LDAWDP_ru6", 0|(1<<TID::Rematerializable), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #61 = LDAWDP_ru6
+  { 62,	3,	1,	0,	"LDAWFI", 0, 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #62 = LDAWFI
+  { 63,	3,	1,	0,	"LDAWF_l2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #63 = LDAWF_l2rus
+  { 64,	3,	1,	0,	"LDAWF_l3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #64 = LDAWF_l3r
+  { 65,	2,	1,	0,	"LDAWSP_lru6", 0, 0, ImplicitList1, NULL, NULL, OperandInfo9 },  // Inst #65 = LDAWSP_lru6
+  { 66,	2,	1,	0,	"LDAWSP_lru6_RRegs", 0, 0, ImplicitList1, NULL, NULL, OperandInfo14 },  // Inst #66 = LDAWSP_lru6_RRegs
+  { 67,	2,	1,	0,	"LDAWSP_ru6", 0, 0, ImplicitList1, NULL, NULL, OperandInfo9 },  // Inst #67 = LDAWSP_ru6
+  { 68,	2,	1,	0,	"LDAWSP_ru6_RRegs", 0, 0, ImplicitList1, NULL, NULL, OperandInfo14 },  // Inst #68 = LDAWSP_ru6_RRegs
+  { 69,	2,	1,	0,	"LDC_lru6", 0|(1<<TID::Rematerializable), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #69 = LDC_lru6
+  { 70,	2,	1,	0,	"LDC_ru6", 0|(1<<TID::Rematerializable), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #70 = LDC_ru6
+  { 71,	5,	2,	0,	"LDIV_l5r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo12 },  // Inst #71 = LDIV_l5r
+  { 72,	2,	1,	0,	"LDWCP_lru6", 0|(1<<TID::MayLoad)|(1<<TID::Rematerializable)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #72 = LDWCP_lru6
+  { 73,	2,	1,	0,	"LDWCP_ru6", 0|(1<<TID::MayLoad)|(1<<TID::Rematerializable)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #73 = LDWCP_ru6
+  { 74,	3,	1,	0,	"LDWDP_lru6", 0|(1<<TID::MayLoad), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #74 = LDWDP_lru6
+  { 75,	3,	1,	0,	"LDWDP_ru6", 0|(1<<TID::MayLoad)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #75 = LDWDP_ru6
+  { 76,	3,	1,	0,	"LDWFI", 0|(1<<TID::MayLoad), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #76 = LDWFI
+  { 77,	2,	1,	0,	"LDWSP_lru6", 0|(1<<TID::MayLoad)|(1<<TID::UnmodeledSideEffects), 0, ImplicitList1, NULL, NULL, OperandInfo9 },  // Inst #77 = LDWSP_lru6
+  { 78,	2,	1,	0,	"LDWSP_ru6", 0|(1<<TID::MayLoad)|(1<<TID::UnmodeledSideEffects), 0, ImplicitList1, NULL, NULL, OperandInfo9 },  // Inst #78 = LDWSP_ru6
+  { 79,	3,	1,	0,	"LDW_2rus", 0|(1<<TID::MayLoad)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #79 = LDW_2rus
+  { 80,	3,	1,	0,	"LDW_3r", 0|(1<<TID::MayLoad)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #80 = LDW_3r
+  { 81,	6,	2,	0,	"LMUL_l6r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo15 },  // Inst #81 = LMUL_l6r
+  { 82,	3,	1,	0,	"LSS_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #82 = LSS_3r
+  { 83,	5,	2,	0,	"LSUB_l5r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo12 },  // Inst #83 = LSUB_l5r
+  { 84,	3,	1,	0,	"LSU_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #84 = LSU_3r
+  { 85,	6,	2,	0,	"MACCS_l4r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo16 },  // Inst #85 = MACCS_l4r
+  { 86,	6,	2,	0,	"MACCU_l4r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo16 },  // Inst #86 = MACCU_l4r
+  { 87,	6,	2,	0,	"MACC_l6r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo15 },  // Inst #87 = MACC_l6r
+  { 88,	2,	1,	0,	"MKMSK_2r", 0, 0, NULL, NULL, NULL, OperandInfo8 },  // Inst #88 = MKMSK_2r
+  { 89,	2,	1,	0,	"MKMSK_rus", 0|(1<<TID::Rematerializable), 0, NULL, NULL, NULL, OperandInfo9 },  // Inst #89 = MKMSK_rus
+  { 90,	3,	1,	0,	"MUL_l3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #90 = MUL_l3r
+  { 91,	2,	1,	0,	"NEG", 0, 0, NULL, NULL, NULL, OperandInfo8 },  // Inst #91 = NEG
+  { 92,	2,	1,	0,	"NOT", 0, 0, NULL, NULL, NULL, OperandInfo8 },  // Inst #92 = NOT
+  { 93,	3,	1,	0,	"OR_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #93 = OR_3r
+  { 94,	3,	1,	0,	"REMS_l3r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #94 = REMS_l3r
+  { 95,	3,	1,	0,	"REMU_l3r", 0|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #95 = REMU_l3r
+  { 96,	1,	0,	0,	"RETSP_lu6", 0|(1<<TID::Return)|(1<<TID::MayLoad)|(1<<TID::Terminator), 0, ImplicitList1, ImplicitList1, NULL, OperandInfo4 },  // Inst #96 = RETSP_lu6
+  { 97,	1,	0,	0,	"RETSP_u6", 0|(1<<TID::Return)|(1<<TID::MayLoad)|(1<<TID::Terminator), 0, ImplicitList1, ImplicitList1, NULL, OperandInfo4 },  // Inst #97 = RETSP_u6
+  { 98,	4,	1,	0,	"SELECT_CC", 0|(1<<TID::UsesCustomDAGSchedInserter), 0, NULL, NULL, NULL, OperandInfo17 },  // Inst #98 = SELECT_CC
+  { 99,	1,	0,	0,	"SETSP_1r", 0, 0, NULL, ImplicitList1, NULL, OperandInfo7 },  // Inst #99 = SETSP_1r
+  { 100,	3,	1,	0,	"SEXT_rus", 0, 0, NULL, NULL, NULL, OperandInfo18 },  // Inst #100 = SEXT_rus
+  { 101,	3,	1,	0,	"SHL_2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #101 = SHL_2rus
+  { 102,	3,	1,	0,	"SHL_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #102 = SHL_3r
+  { 103,	3,	1,	0,	"SHR_2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #103 = SHR_2rus
+  { 104,	3,	1,	0,	"SHR_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #104 = SHR_3r
+  { 105,	3,	0,	0,	"ST16_l3r", 0|(1<<TID::MayStore)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #105 = ST16_l3r
+  { 106,	3,	0,	0,	"ST8_l3r", 0|(1<<TID::MayStore)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #106 = ST8_l3r
+  { 107,	3,	0,	0,	"STWDP_lru6", 0|(1<<TID::MayStore), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #107 = STWDP_lru6
+  { 108,	3,	0,	0,	"STWDP_ru6", 0|(1<<TID::MayStore)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #108 = STWDP_ru6
+  { 109,	3,	0,	0,	"STWFI", 0|(1<<TID::MayStore), 0, NULL, NULL, NULL, OperandInfo13 },  // Inst #109 = STWFI
+  { 110,	2,	0,	0,	"STWSP_lru6", 0|(1<<TID::MayStore), 0, ImplicitList1, NULL, NULL, OperandInfo9 },  // Inst #110 = STWSP_lru6
+  { 111,	2,	0,	0,	"STWSP_ru6", 0|(1<<TID::MayStore), 0, ImplicitList1, NULL, NULL, OperandInfo9 },  // Inst #111 = STWSP_ru6
+  { 112,	3,	0,	0,	"STW_2rus", 0|(1<<TID::MayStore)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #112 = STW_2rus
+  { 113,	3,	0,	0,	"STW_3r", 0|(1<<TID::MayStore)|(1<<TID::UnmodeledSideEffects), 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #113 = STW_3r
+  { 114,	3,	1,	0,	"SUB_2rus", 0, 0, NULL, NULL, NULL, OperandInfo2 },  // Inst #114 = SUB_2rus
+  { 115,	3,	1,	0,	"SUB_3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #115 = SUB_3r
+  { 116,	3,	1,	0,	"XOR_l3r", 0, 0, NULL, NULL, NULL, OperandInfo3 },  // Inst #116 = XOR_l3r
+  { 117,	3,	1,	0,	"ZEXT_rus", 0, 0, NULL, NULL, NULL, OperandInfo18 },  // Inst #117 = ZEXT_rus
+};
+} // End llvm namespace 
